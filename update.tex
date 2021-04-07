@@ -1,0 +1,55 @@
+ \documentclass[11pt]{beamer}
+ % \documentclass[11pt,handout]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% color schemes, etc
+% load packages;
+\usetheme{Boadilla}
+% https://tex.stackexchange.com/questions/66252/placing-the-figure-exactly-at-the-top-of-the-page-in-latex
+%
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{subcaption}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define title, etc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[Volcanic Snowball Earth]{Volcanic Snowballs}
+\author{Eugene Tan}
+\date{\today}
+%\AtBeginSection[]{\setcounter{tocdepth}{2}\frame{\frametitle{Outline}\tableofcontents[currentsection,currentsubsection]}}
+%\AtBeginSubsection[]{\setcounter{tocdepth}{2}\frame{\frametitle{Outline}\tableofcontents[currentsection,currentsubsection]}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\setcounter{tocdepth}{2}\frame{\frametitle{Outline}\tableofcontents}\setcounter{tocdepth}{2}
+
+\begin{frame}{Volcanic activity to Snowball Earth?}
+    $$\frac{Q_{trans}}{4} S(x)(1-\alpha(x)) = A + BT(x) + C (T(x)-\bar{T})$$
+    \centering
+    \includegraphics[width=.7\textwidth,height=\textheight,keepaspectratio, angle=-90]{img/graph.png}
+\end{frame}
+
+\begin{frame}{EBCM Results}
+    \includegraphics<1>[width=\textwidth,height=\textheight,keepaspectratio]{img/t-e.png}
+    \includegraphics<2>[width=\textwidth,height=\textheight,keepaspectratio]{img/t0.png}
+    \includegraphics<3>[width=\textwidth,height=\textheight,keepaspectratio]{img/t1.png}
+    \includegraphics<4>[width=\textwidth,height=\textheight,keepaspectratio]{img/t2.png}
+    \includegraphics<5>[width=\textwidth,height=\textheight,keepaspectratio]{img/t3.png}
+    \includegraphics<6>[width=\textwidth,height=\textheight,keepaspectratio]{img/t4.png}
+    \includegraphics<7>[width=\textwidth,height=\textheight,keepaspectratio]{img/t5.png}
+    \includegraphics<8>[width=\textwidth,height=\textheight,keepaspectratio]{img/t6.png}
+    \includegraphics<9>[width=\textwidth,height=\textheight,keepaspectratio]{img/t7.png}
+    \includegraphics<10>[width=\textwidth,height=\textheight,keepaspectratio]{img/t8.png}
+    \includegraphics<11>[width=\textwidth,height=\textheight,keepaspectratio]{img/t9.png}
+    \includegraphics<12>[width=\textwidth,height=\textheight,keepaspectratio]{img/t10.png}
+    \includegraphics<13>[width=\textwidth,height=\textheight,keepaspectratio]{img/t11.png}
+\end{frame}      
+\end{document}
